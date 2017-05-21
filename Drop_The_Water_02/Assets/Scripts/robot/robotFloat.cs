@@ -19,10 +19,10 @@ public class robotFloat : MonoBehaviour {
 		transform.position = new Vector3(0, newYPosition, 0);
 
 		// Round trip
-		if (transform.position.y < 0.55){
+		if (transform.position.y < 0.7){
 			delta = 0.002f;
 		} 
-		else if (transform.position.y > 0.7){
+		else if (transform.position.y > 0.9){
 			delta = -0.002f;
 		}
 
